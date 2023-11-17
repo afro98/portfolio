@@ -4,7 +4,27 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
-#contacto{
+#inicio img{
+    height: 400px;
+}
+
+#inicio img:hover{
+    height: 410px;
+}
+
+#inicio p{
+    color: white;
+    border: 1px solid white;
+    font-weight: 600;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.div-cohete{
+    height: 410px;
+}
+
+#inicio, #contacto{
     background-image: url("/images/fondo-contacto.png");
     background-size: cover;
     background-repeat: no-repeat;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="h-100">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -11,7 +11,7 @@
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body id="inicio">
+<body id="inicio" class="d-flex flex-column h-100">
     
     <header class="container">
 
@@ -23,17 +23,19 @@
               <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav me-auto mb-2 mb-md-0">
                   <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Inicio</a>
+                    <a class="nav-link active px-4" href="index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="sobre-mi.html">Sobre mi</a>
+                    <a class="nav-link px-4" href="sobre-mi.html">Sobre mi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="proyectos.html">Proyectos</a>
+                    <a class="nav-link px-4" href="proyectos.html">Proyectos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="contacto.html">Contacto</a>
+                    <a class="nav-link px-4" href="contacto.html">Contacto</a>
                   </li>
+                </ul>
+                <ul class="navbar-nav">
                   <li class="float-sm-end">
                     <a href="contacto.html" class="btn btn-rojo">
                       Descargar mi CV
@@ -49,9 +51,46 @@
 
     <main class="container">
         
+      <div class="row">
+        <div class="col-12 mt-4 text-center div-cohete">
+          <a href="proyectos.html"><img src="images/cohete.svg"></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-sm-6 my-4 mt-sm-5 text-center mb-3 offset-sm-3">
+          <p class="py-1">Bienvenido/a a mi sitio web sobre docencia en sistemas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center">
+            <a href="proyectos.html" class="btn btn-blanco">Conoce mis proyectos</a>
+          </div>
+        </div>
+      </div>
+
     </main>
 
-    <footer class="container">
+    <footer class="container mt-auto py-4">
+
+      <div class="row">
+        
+        <div class="col-sm-3 col-12">
+          <a href="https://github.com/" target="_blank" title="Github"><i class="fa-brands fa-github px-2"></i></a>
+          <a href="https://www.linkedin.com/in/elias-ochi-426a15285/" target="_blank" title="Linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          Sponsor <a href="https://depcsuite.com/">DePC Suite</a>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          <a href="mailto:eliaspablo795@gmail.com">eliaspablo795@gmail.com</a>
+        </div>
+
+      </div>
+
+      <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
 
     </footer>
 
