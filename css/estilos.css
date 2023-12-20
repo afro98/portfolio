@@ -25,7 +25,7 @@ body{
 }
 
 #inicio, #contacto{
-    background-image: url("/images/fondo-contacto.png");
+    background-image: url("../images/fondo-contacto.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -33,7 +33,7 @@ body{
 }
 
 #proyectos{
-    background-image: url("/images/fondo-proyectos.png");
+    background-image: url("../images/fondo-proyectos.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
